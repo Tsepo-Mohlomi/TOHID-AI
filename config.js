@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '917849917350';
+const defaultOwner = '27736267768';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '917849917350' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '27736267768' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'TOHID-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '918930358452' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.botname = process.env.BOTNAME || 'SLADE AI;
+global.pairingNumber = process.env.BOT_NUMBER || '27736267768' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'fc5SBAhR#zgHi4BANXz-muAvzuLaxlFt1VU1Yd8zB50S0BZ8R3QI' ;  // put your session id here
 
 global.mods = []
-global.prems = []
-global.allowed = ['917849917350', '918930358452']
+global.prems = ['27736267768']
+global.allowed = ['27736267768', '27735940102']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -73,8 +73,8 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'TOHID-AI'
-global.author = 'Tohidkhan6332'
+global.packname = 'SLADE 
+global.author = 'Tsepo Mohlomi'
 global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Tohidkhan6332'
 global.dygp = 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T'
